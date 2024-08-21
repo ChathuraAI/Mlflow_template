@@ -58,6 +58,7 @@ class ConfigurationManager:
 
         return data_transformation_config
     
+    
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
         params = self.params.ElasticNet
